@@ -1,0 +1,10 @@
+#
+# @description: $1: path $2: k1 value
+#
+
+; select k2 from other where k1=$2;
+:write-cols-to -
+:switch-to-view text
+:goto 2
+:mark
+:write-to $1

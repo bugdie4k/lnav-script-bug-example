@@ -1,0 +1,18 @@
+{
+  "other": {
+    "file-pattern": ".*other$",
+    "json": true,
+    "line-format": [
+      { "field": "time" },
+      "--",
+      { "field": "k1" },
+      "--",
+      { "field": "k2" }
+    ],
+    "value": {
+      "k1": { "kind": "string" },
+      "k2": { "kind": "string" }
+    },
+    "timestamp-field": "time"
+  }
+}
